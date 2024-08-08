@@ -1,0 +1,28 @@
+{
+    "name": "online-html5",
+    "version": "1.0.0",
+    "pluginName": "online-html5",
+    "description": "在线运行HTML5",
+    "main": "views/index.html",
+    "logo": "logo.png",
+    "preload": "preload.js",
+    "features": [
+        {
+            "code": "online-html5",
+            "explain": "在线运行HTML5",
+            "cmds": [
+                "在线运行HTML5",
+                "在线",
+                "zx",
+                "html5",
+                "html",
+                {
+                    "type": "regex",
+                    "label": "在线运行HTML5",
+                    "match": "/<[^<]+>/",
+                    "minLength": 1
+                }
+            ]
+        }
+    ]
+}
